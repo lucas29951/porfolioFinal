@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/project")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://apportfolioweb.web.app/")
 public class ProyectoController {
     
     @Autowired
